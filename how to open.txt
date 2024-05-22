@@ -1,0 +1,8 @@
+1. create database name mydatabase. best way create mydatabase then export mydatabase.sql
+2.put the interviewtask folder inside the htdocs folder
+3.open cmd of nterviewtask
+
+composer install
+php artisan key:generate
+php artisan migrate
+php artisan serve
